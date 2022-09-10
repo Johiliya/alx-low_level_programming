@@ -1,2 +1,2 @@
 #!/bin/basg
-gcc -c $CFILE $CFILE
+gcc -c $CFILE
