@@ -8,6 +8,7 @@ int main(void)
 {
 	int i = 0, j = 0;
 	int f, s, t, l;
+
 	while (i < 100)
 	{
 		f = i / 10;
