@@ -4,6 +4,7 @@
  * Return: 0
  */
 int main(void)
+{
 	int c = 0;
 	int f_d;
 	int m_d;
