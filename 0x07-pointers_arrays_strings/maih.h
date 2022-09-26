@@ -1,0 +1,21 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+
+* void prototypes()
+* int prototypes()
+*/
+
+int _putchar (char);
+char *_memset(char *S, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *S, char *accept);
+char strchr(char *S, char c);
+unsigned int _strspn( char *S, char *accept);
+char *_strpbrk(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **S, char *to);
+
+#endif /*MAIN_H*/
