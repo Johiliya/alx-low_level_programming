@@ -2,12 +2,12 @@
 #include <stdio.h>
 /**
  *
- * main - prints name if the file
+ * main - prints name of the file
  *
  * Return: 0
  */
 int main(void)
 {
-	printf("%\n", __file__);
+	printf("%s\n", __file__);
 	return (0);
 }
